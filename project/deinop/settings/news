@@ -1,9 +1,0 @@
-{
- "Activation": {
-  "on_off": "1"
- },
-    "[center][h]Майбутня 0.5.4.04 що буде?[/h][/center][s]В наступному оновленні насправді буде багато нової механіки яка не схожа на демо версію, вся інша система яка до цього існувала буде застосовуватись краще під нову систему. Це значить нове оновлення додасть новий погляд для гравця Дейнопа.[s]- Вся мапа буде новою, хоча схожою на ту яка була в демо версії 0.5.4.03[s]- Ще більше нових спрайтів до нової мапи та історії[s]- Додасться повноцінна печера[s]- Будуть перші збереження прогрессу в історії[s][b]Також демо версія яку ми всі знаємо буде перенесена на евент, тому поки що евент буде саме для тих хто захоче роздивитись ту саму версію яка подарувала багато емоцій.[/b]": {
-        "en_US": "[center][h]What's coming in the future 0.5.4.04?[/h][/center][s]The next update will actually bring a lot of new mechanics unlike the demo version, and the rest of the existing systems will be better adapted to the new system. This means the new update will offer a fresh perspective for the Deinop player.[s]- The entire map will be new, though similar to the one in demo version 0.5.4.03[s]- Even more new sprites for the new map and story[s]- A full-fledged cave will be added[s]- The first story progress saves will be introduced[s][b]Also, the demo version we all know will be moved to an event, so for now, the event will be specifically for those who want to revisit the version that gave us so many emotions.[/b]",
-        "ja_JP": "[center][h]次期 0.5.4.04 の予定は？[/h][/center][s]次のアップデートでは、デモ版とは異なる多くの新メカニクスが実際に登場し、これまでの既存システムも新しいシステムに合わせてより良く適用されます。これにより、新たなアップデートは「ディノップ (Deinop)」のプレイヤーに新しい視点をもたらすことになります。[s]- マップ全体が新しくなります（デモ版 0.5.4.03 のものと似ていますが）[s]- 新しいマップとストーリー用の新しいスプライトがさらに追加[s]- 本格的な洞窟を追加[s]- ストーリー進行の最初のセーブ機能が登場[s][b]また、皆さんが知っているデモ版はイベントへ移行するため、多くの感動を与えてくれたあのバージョンをじっくり楽しみたい方のためのイベントとなります。[/b]"
-    }
-}

@@ -1,150 +1,16 @@
 <!DOCTYPE html>
-<html lang="ua">
-
-<head>
-    <link rel="icon" href="img/20191217_090702.png" type="image/png">
-    <meta name="keywords" content="Kuzhen Larn Deinop Gondo Clickers Trash Pepsi">
-    <meta name="description" content="Kuzhen Larn">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="index.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuzhen Project</title>
-    <style>
-        body {
-            background-image: url(img/BGLoop.png);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div id="ico_kuzhen_project"></div>
-
-
-
-    <div class="container-button"> <!--  кнопки  -->
-        <div id="button_start_1" onclick="location.href='http://klabc.wuaze.com/index.php'">
-            <div id="button_start_text_1">
-                Klabc
-            </div>
-            <div id="button_info_1" style="font-size: 17px;">
-                Global Chat
-            </div>
-        </div>
-        <div id="button_start_1" onclick="location.href='project/deinop/index.html'">
-            <div id="button_start_text_1">
-                Deinop
-            </div>
-            <div id="button_info_1" style="font-size: 17px;">
-                Platform Game
-            </div>
-        </div>
-        <div id="button_start_1" onclick="location.href='project/gondo_clicker/index.html'">
-            <div id="button_start_text_1">
-                Gondo Clickers
-            </div>
-            <div id="button_info_1">
-                Clicker Game
-            </div>
-        </div>
-        <div id="button_start_1" onclick="location.href='project/pepsi/index.html'">
-            <div id="button_start_text_1">
-                Trash Pepsi
-            </div>
-            <div id="button_info_1">
-                Web Game
-            </div>
-        </div>
-        <div id="button_start_1" style="display: none;" onclick="location.href='project/shofia/index.html'">
-            <div id="button_start_text_1">
-                Shofia
-            </div>
-            <div id="button_info_1">
-                World Project
-            </div>
-        </div>
-        <div id="button_start_1" onclick="location.href='project/wiki/index.html'">
-            <div id="button_start_text_1">
-                Wiki
-            </div>
-            <div id="button_info_1">
-                Wiki
-            </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <div class="verhna_text_box">
-        <hr color="white">
-        <p id="start_p">.</p>
-        <hr id="hr_bottom" color="white">
-    </div>
-
-
-    <script>
-        function updateKlabcCountdown() {
-            const timerElement = document.getElementById('timer-klabc');
-            if (!timerElement) return;
-
-            const now = new Date();
-            const year = now.getFullYear();
-            let month = now.getMonth();
-
-            const targetDate = new Date(year, month, 28, 0, 19, 0, 0);
-            if (now >= targetDate) {
-                month += 1;
-            }
-            const nextTarget = new Date(year, month, 28, 0, 19, 0, 0);
-
-            const diff = nextTarget - now;
-            if (diff <= 0) {
-                timerElement.textContent = '0 Day 00:00:00';
-                return;
-            }
-
-            const totalSeconds = Math.floor(diff / 1000);
-            const days = Math.floor(totalSeconds / 86400);
-            const hours = Math.floor((totalSeconds % 86400) / 3600);
-            const minutes = Math.floor((totalSeconds % 3600) / 60);
-            const seconds = totalSeconds % 60;
-
-            const padded = (value) => String(value).padStart(2, '0');
-            timerElement.textContent = `${days} Day ${padded(hours)}:${padded(minutes)}:${padded(seconds)}`;
-        }
-
-        updateKlabcCountdown();
-        setInterval(updateKlabcCountdown, 1000);
-    </script>
-
-
-
-
-
-
-
-
-
-
-
-
-    <div id="panel-container"><!--Панель для сайтів--></div>
-</body>
-
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="user-scalable=no">
+        <link rel="icon" href="icon/icon.png" type="image/png">
+        <link rel="apple-touch-icon" href="icon/icon.png">
+        <link rel="stylesheet" type="text/css" href="css/game.css">
+        <title>CKA3KA</title>
+    </head>
+    <body style="background-color: black">
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>
